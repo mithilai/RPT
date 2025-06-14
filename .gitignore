@@ -50,4 +50,10 @@ D:\Projects ML\RPT\config.toml
 
 # Other
 *.sqlite3
-config.toml
+
+
+# Ignore only the config.toml in the root directory
+/config.toml
+
+# Don't ignore the Streamlit config
+!.streamlit/config.toml
